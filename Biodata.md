@@ -1,5 +1,3 @@
-Nama : Ianiitakuttnyee
-
-NIM : 25071104587
-
+Nama : Said Fairuz Zacky
+NIM : 25071207048
 Prodi : S1 Teknik Informatika
