@@ -37,3 +37,4 @@ print(x)
 
 lambe = lambda a, b : a * b
 print(x(5, 6)) 
+
