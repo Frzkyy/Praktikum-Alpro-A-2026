@@ -100,3 +100,37 @@ print("================= Contoh 9 =====================")
 thislist = ["apple", "banana", "cherry"]
 thislist.insert(2, "orange")
 print(thislist)
+
+x = 7
+print(x > 2 and x < 8)
+print(not(x > 2 and x < 8))
+
+x = 9
+print(x < 0 or x > 4)
+
+
+####
+x = ["TI-A", "TI-B"]
+y = ["TI-A", "TI-B"]
+z = x
+
+print(x is z)
+print(x is y)
+print(x == y)
+
+x = ["TI A", "TI C"]
+y = ["TI A", "TI C"]
+
+print(x is not y)
+
+###
+kelas = ["TI A", "TI B", "TI C"]
+
+print("TI A" in kelas)
+
+###
+print(9 & 2)
+print(7 | 3)
+print(3^4)
+
+print(100 + 5 * 3) 
