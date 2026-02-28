@@ -1,4 +1,4 @@
-angka_list = [10, 20, 30]
+angka_list = [0, -20, "huruf"]
 try:
     idx = int(input('Masukkan index (0-2): '))
     print(f'Nilai: {angka_list[idx]}')

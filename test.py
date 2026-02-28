@@ -20,4 +20,15 @@ matrix = [[1,2,3],
 
 summary = sum(sum(baris) for baris in matrix)
 skalar = kali_skalar(matrix, 3)
-print()
+
+try:
+    value = input("Enter a value: ")
+    print(value/value)
+except ValueError:
+    print("Bad input...")
+except ZeroDivisionError:
+    print("Very bad input...")
+except TypeError:
+    print("Very very bad input...")
+except:
+    print("Booo!")
